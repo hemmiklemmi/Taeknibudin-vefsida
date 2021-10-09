@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Hópverkefni 1 Vefforritun</title>
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <nav>
-                <ul>
-                    <li><h1>Tæknibúðin</h1></li>
-                    <li><Input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."></Input></li>
-
+            <div class="menu">
+                <div class="h2-img-container">
+                    <img src="images/wheel.png" alt="">
+                    <h2>Tæknibúðin</h2>
+                </div>
+                <nav>
+                    <Input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."></Input>
                     <!--það þarf að breyta hrefinu-->
-                    <li><a href="index.html">Nýjar vörur</a></li>
-                    <li><a href="index.html">Tilboðs vörur</a></li>
-                    <li><a href="index.html">Allar vörur</a></li>
-                </ul>
-
+                    <a href="index.html" class="a-header">Nýjar vörur</a>
+                    <a href="index.html" class="a-header">Tilboðs vörur</a>
+                    <a href="index.html" class="a-header">Allar vörur</a>
+                </nav>
+                <a href="index.html" class="checkout-icon"><img src="images/Cart.png" alt=""></a>
+            </div>
+            <div class="below-menu">
                 <h1>Tilboðsvika</h1>
                 <h2>Keyptu græjurnar hjá okkur</h2>
-            </nav>
+            </div>
         </header>
+        </div>
     </div>
 </body>
 </html>
