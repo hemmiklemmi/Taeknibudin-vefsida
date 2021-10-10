@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">  
     <title>Hópverkefni 1 Vefforritun</title>
 </head>
 <body>
@@ -12,24 +16,24 @@
         <header>
             <div class="menu">
                 <div class="h2-img-container">
-                    <img src="images/wheel.png" alt="">
+                    <img class="header-icon" src="images/wheel.png" alt="">
                     <h2>Tæknibúðin</h2>
                 </div>
                 <nav>
-                    <Input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."></Input>
+                    <Input type="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
                     <!--það þarf að breyta hrefinu-->
                     <a href="index.html" class="a-header">Nýjar vörur</a>
                     <a href="index.html" class="a-header">Tilboðs vörur</a>
                     <a href="index.html" class="a-header">Allar vörur</a>
                 </nav>
-                <a href="index.html" class="checkout-icon"><img src="images/Cart.png" alt=""></a>
+                <a href="index.html" class="checkout-icon"><img class = "header-icon" src="images/Cart.png" alt=""></a>
             </div>
             <div class="below-menu">
                 <h1>Tilboðsvika</h1>
-                <h2>Keyptu græjurnar hjá okkur</h2>
+                <p class="below-menu-text">Keyptu græjurnar hjá okkur!</p>
+                <div class= "triangle"></div>
             </div>
         </header>
-        </div>
     </div>
 </body>
 </html>
