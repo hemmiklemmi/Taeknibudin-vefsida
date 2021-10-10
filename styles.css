@@ -1,80 +1,85 @@
 header {
+  background-image: url("images/Background.png");
+  background-size: cover;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: auto 50vh;
-  background-image: url(images/Background.png);
-  background-size: cover;
+  grid-template-rows: auto 60vh;
 }
 
 .menu {
-  padding: 0.5em;
-  display: grid;
-  grid-template-columns: 40% 50% 10%;
   background: rgba(255, 255, 255, 0.5);
+  display: grid;
+  grid-template-columns: 30% 65% 5%;
+  padding: 0.5em;
 }
 
 nav {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 input {
-  width: 50%;
-  height: 25px;
-  background: #FEFEFE;
-  border: 1px solid #000000;
-  box-sizing: border-box;
+  background: #fefefe;
+  border: 1px solid #000;
   border-radius: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  margin-right: 10px;
+  padding-left: 10px;
+  width: 450px;
 }
 
 .a-header {
-  margin-left: 2em;
+  color: #000;
+  margin: 0 10px;
   text-decoration: none;
-  color: #000000;
 }
 
 .checkout-icon {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: end;
 }
 
 .below-menu {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-h1 {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 160px;
-  line-height: 192px;
-}
-
-h2 {
-  font-family: Lora;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 40px;
-}
-
-body {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  padding-top: 4em;
 }
 
 .h2-img-container {
+  align-items: center;
   display: flex;
   flex-direction: row;
+}
+
+.header-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.triangle {
+  border-bottom: 30px solid white;
+  border-left: 100vw solid transparent;
+  flex: 1;
+  height: 0;
+  width: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.search-icon {
+  margin-left: -2em;
 }
 
 * {
@@ -84,6 +89,44 @@ body {
 
 html {
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 160px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 192px;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.below-menu-text {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  margin: auto;
+  max-width: 1400px;
 }
 
 .wrapper {
