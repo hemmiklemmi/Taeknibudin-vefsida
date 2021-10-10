@@ -57,13 +57,17 @@ input {
   flex-direction: row;
 }
 
+.h2-header {
+  padding-left: 10px;
+}
+
 .header-icon {
   height: 30px;
   width: 30px;
 }
 
-.triangle {
-  border-bottom: 30px solid rgb(255, 255, 255);
+.header .triangle {
+  border-bottom: 30px solid #fff;
   border-left: 100vw solid transparent;
   flex: 1;
   height: 0;

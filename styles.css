@@ -57,13 +57,17 @@ input {
   flex-direction: row;
 }
 
+.h2-header {
+  padding-left: 10px;
+}
+
 .header-icon {
   height: 30px;
   width: 30px;
 }
 
-.triangle {
-  border-bottom: 30px solid white;
+.header .triangle {
+  border-bottom: 30px solid #fff;
   border-left: 100vw solid transparent;
   flex: 1;
   height: 0;
@@ -105,7 +109,6 @@ h2 {
   font-style: normal;
   font-weight: bold;
   line-height: 40px;
-  padding-left: 10px;
 }
 
 body {
@@ -129,10 +132,53 @@ body {
   max-width: 1400px;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1400px;
+.content-new-cta {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+.content-new-img {
+  grid-column: 4/6;
+  padding: 20vh 0;
+}
+.content-new-text button {
+  background: #6f4e37;
+  border: 1px solid #3c2a1e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  height: 44px;
+  width: 177px;
+}
+
+.content-new-text {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/4;
+  justify-content: space-between;
+  padding: 20vh 0;
+}
+.content-new-text button:hover {
+  opacity: 0.95;
+}
+.content-new-text button {
+  cursor: pointer;
+}
+.content-new-text button:active {
+  opacity: 1;
+}
+
+.triangle2 {
+  border-bottom: 30px solid #E1CEC2;
+  border-left: 1400px solid transparent;
+  height: 0;
+  width: 0;
+  grid-column: 1/6;
+  grid-row: 6/6;
+}
+
+.products-new {
+  background: #E1CEC2;
 }
 
 /*# sourceMappingURL=styles.css.map */
