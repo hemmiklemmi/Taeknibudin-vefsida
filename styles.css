@@ -74,14 +74,6 @@ input {
   width: 0;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  margin: auto;
-  max-width: 1400px;
-}
-
 .search-icon {
   margin-left: -2em;
 }
@@ -158,27 +150,27 @@ body {
   justify-content: space-between;
   padding: 20vh 0;
 }
-.content-new-text button:hover {
-  opacity: 0.95;
-}
 .content-new-text button {
   cursor: pointer;
+}
+.content-new-text button:hover {
+  opacity: 0.95;
 }
 .content-new-text button:active {
   opacity: 1;
 }
 
 .triangle2 {
-  border-bottom: 30px solid #E1CEC2;
+  border-bottom: 30px solid #e1cec2;
   border-left: 1400px solid transparent;
-  height: 0;
-  width: 0;
   grid-column: 1/6;
   grid-row: 6/6;
+  height: 0;
+  width: 0;
 }
 
 .products-new {
-  background: #E1CEC2;
+  background: #e1cec2;
 }
 
 /*# sourceMappingURL=styles.css.map */
