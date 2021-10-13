@@ -55,11 +55,12 @@ header {
 .menu {
   background: rgba(255, 255, 255, 0.5);
   display: grid;
-  grid-template-columns: 30% 65% 5%;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0.5em;
 }
 
 nav {
+  grid-column: span 1;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -73,7 +74,7 @@ input {
   height: 40px;
   margin-right: 10px;
   padding-left: 10px;
-  width: 450px;
+  width: 95%;
 }
 
 .a-header {
@@ -101,6 +102,11 @@ input {
   align-items: center;
   display: flex;
   flex-direction: row;
+  grid-column: span 1;
+}
+.h2-img-container .header-icon {
+  height: 30px;
+  width: 30px;
 }
 
 .h2-header {
@@ -116,6 +122,14 @@ input {
   margin-left: -2em;
 }
 
+.a-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: span 1;
+}
+
 .content-new-cta {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -124,6 +138,7 @@ input {
 .content-new-img {
   grid-column: 4/6;
   padding: 20vh 0;
+  width: 100%;
 }
 .content-new-text button {
   background: #6f4e37;
