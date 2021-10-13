@@ -1,3 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  margin: auto;
+  max-width: 1400px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 160px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 192px;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.below-menu-text {
+  font-size: 36px;
+  line-height: 48px;
+}
+
 header {
   background-image: url("images/Background.png");
   background-size: cover;
@@ -66,7 +112,7 @@ input {
   width: 30px;
 }
 
-.header .triangle {
+.triangle {
   border-bottom: 30px solid #fff;
   border-left: 100vw solid transparent;
   flex: 1;
@@ -74,62 +120,8 @@ input {
   width: 0;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  margin: auto;
-  max-width: 1400px;
-}
-
 .search-icon {
   margin-left: -2em;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-h1 {
-  font-family: "Lato", sans-serif;
-  font-size: 160px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 192px;
-}
-
-h2 {
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 40px;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
-}
-
-.below-menu-text {
-  font-size: 36px;
-  line-height: 48px;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  margin: auto;
-  max-width: 1400px;
 }
 
 .content-new-cta {
@@ -158,27 +150,27 @@ body {
   justify-content: space-between;
   padding: 20vh 0;
 }
-.content-new-text button:hover {
-  opacity: 0.95;
-}
 .content-new-text button {
   cursor: pointer;
+}
+.content-new-text button:hover {
+  opacity: 0.95;
 }
 .content-new-text button:active {
   opacity: 1;
 }
 
 .triangle2 {
-  border-bottom: 30px solid #E1CEC2;
+  border-bottom: 30px solid #e1cec2;
   border-left: 1400px solid transparent;
-  height: 0;
-  width: 0;
   grid-column: 1/6;
   grid-row: 6/6;
+  height: 0;
+  width: 0;
 }
 
 .products-new {
-  background: #E1CEC2;
+  background: #e1cec2;
 }
 
 /*# sourceMappingURL=styles.css.map */
