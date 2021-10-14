@@ -14,10 +14,10 @@ header {
 }
 
 nav {
-  grid-column: span 1;
   align-items: center;
   display: flex;
   flex-direction: row;
+  grid-column: span 1;
 }
 
 input {
@@ -28,7 +28,7 @@ input {
   height: 40px;
   margin-right: 10px;
   padding-left: 10px;
-  width: 95%
+  width: 95%;
 }
 
 .a-header {
@@ -78,10 +78,9 @@ input {
 }
 
 .a-header-container {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   grid-column: span 1;
-
+  justify-content: space-between;
 }

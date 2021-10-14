@@ -1,3 +1,33 @@
 .products-new {
   background: #e1cec2;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 10px;
+
+  h2 {
+    grid-row: 1/1;
+  }
+
+  &-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
+  }
+}
+
+section {
+  background: #fff;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  grid-column: span 1;
+  grid-row: 2/2;
+  padding: 10px;
+}
+
+.tags button {
+  background: #e1cec2;
+  border-radius: 5px;
 }
