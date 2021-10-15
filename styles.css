@@ -65,6 +65,18 @@ body {
   line-height: 48px;
 }
 
+footer h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+}
+footer .footer-p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
 header {
   background-image: url("images/Background.png");
   background-repeat: round;
@@ -224,9 +236,9 @@ input {
   padding: 10px;
 }
 .products .products-h2-container {
-  grid-row: 1/1;
   display: grid;
-  grid-template-columns: 15% 50%;
+  grid-row: 1/1;
+  grid-template-columns: 22% 55%;
 }
 .products-container {
   display: grid;
@@ -237,7 +249,6 @@ input {
 
 section {
   background: #fff;
-  border: 1px solid #fff;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -262,18 +273,45 @@ section {
 }
 
 .triangle-container {
-  background: linear-gradient(178deg, white 41%, #e1cec2 41%);
+  background: linear-gradient(178deg, white 41%, #e1cec2 42%);
   height: 100px;
   width: 100%;
 }
 .triangle-container-r {
-  background: linear-gradient(-2deg, white 41%, #e1cec2 41%);
+  background: linear-gradient(-2deg, white 41%, #e1cec2 42%);
   height: 100px;
   width: 100%;
 }
 
 .products-h2-container h2 {
   grid-column: 2;
+}
+
+footer {
+  background: #3C2A1E;
+  color: #FEFEFE;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer h2 {
+  border-bottom: 2px solid #E1CEC2;
+  margin-bottom: 10px;
+}
+
+.footer-section {
+  background: #3C2A1E;
+  gap: 0px;
+}
+.footer-p {
+  display: flex;
+  justify-content: center;
+  grid-column: span 3;
+  grid-row: 3;
+  width: 70%;
+  margin: auto;
+  border-top: 1px solid #6F4E37;
+  padding: 10px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

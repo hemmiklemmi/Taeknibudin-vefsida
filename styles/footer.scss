@@ -1,0 +1,30 @@
+footer {
+  background: #3c2a1e;
+  color: #fefefe;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+
+  h2 {
+    border-bottom: 2px solid #e1cec2;
+    margin-bottom: $spacing;
+  }
+}
+
+.footer {
+  &-section {
+    background: #3c2a1e;
+    gap: 0;
+  }
+
+  &-p {
+    border-top: 1px solid #6f4e37;
+    display: flex;
+    grid-column: span 3;
+    grid-row: 3;
+    justify-content: center;
+    margin: auto;
+    padding: $spacing 0;
+    width: 70%;
+  }
+}
