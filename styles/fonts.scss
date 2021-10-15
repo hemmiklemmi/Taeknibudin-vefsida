@@ -45,13 +45,6 @@ body {
   }
 }
 
-.products {
-  .products-h2-container h2 {
-    font-size: 36px;
-    line-height: 48px;
-  }
-}
-
 footer {
   h2 {
     font-family: 'Lato', sans-serif;
@@ -64,5 +57,12 @@ footer {
   .footer-p {
     font-size: 14px;
     line-height: 16px;
+  }
+}
+
+.products {
+  .products-h2-container h2 {
+    font-size: 36px;
+    line-height: 48px;
   }
 }

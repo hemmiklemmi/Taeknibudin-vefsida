@@ -1,3 +1,9 @@
+.products-h2-container {
+  h2 {
+    grid-column: 2;
+  }
+}
+
 .products {
   background: #e1cec2;
   display: grid;
@@ -41,22 +47,4 @@ section {
   box-sizing: border-box;
   height: 44px;
   padding: 10px 15px;
-}
-
-.triangle-container {
-  background: linear-gradient(178deg, rgb(255 255 255) 41%, #e1cec2 42%);
-  height: 100px;
-  width: 100%;
-
-  &-r {
-    background: linear-gradient(-2deg, rgb(255 255 255) 41%, #e1cec2 42%);
-    height: 100px;
-    width: 100%;
-  }
-}
-
-.products-h2-container {
-  h2 {
-    grid-column: 2;
-  }
 }
