@@ -1,10 +1,16 @@
-header {
+.frontpage-header {
   background-image: url('images/Background.png');
   background-repeat: round;
   background-size: cover;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto 60vh;
+}
+
+.sidepage-header {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
 }
 
 .menu {
