@@ -26,3 +26,28 @@ body {
   font-size: 36px;
   line-height: 48px;
 }
+
+.bottom-button {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.tags {
+  button {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+  }
+}
+
+.products {
+  .products-h2-container h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}

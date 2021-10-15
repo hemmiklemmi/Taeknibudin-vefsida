@@ -44,8 +44,30 @@ body {
   line-height: 48px;
 }
 
+.bottom-button {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.tags button {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.products .products-h2-container h2 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
 header {
   background-image: url("images/Background.png");
+  background-repeat: round;
   background-size: cover;
   display: grid;
   grid-template-columns: 100%;
@@ -98,6 +120,11 @@ input {
   padding-top: 4em;
 }
 
+.header-icon {
+  height: 60px;
+  width: 60px;
+}
+
 .h2-img-container {
   align-items: center;
   display: flex;
@@ -113,11 +140,6 @@ input {
   padding-left: 10px;
 }
 
-.header-icon {
-  height: 60px;
-  width: 60px;
-}
-
 .search-icon {
   margin-left: -2em;
 }
@@ -130,71 +152,83 @@ input {
   justify-content: space-between;
 }
 
-.content-new-cta {
+.content-cta {
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
 }
-.content-new-img {
+.content-img-upper {
   grid-column: 4/6;
   padding: 20vh 0;
   width: 100%;
 }
-.content-new-text button {
-  background: #6f4e37;
-  border: 1px solid #3c2a1e;
-  border-radius: 5px;
-  box-sizing: border-box;
-  color: #fff;
-  height: 44px;
-  width: 177px;
-}
-
-.content-new-text {
+.content-text-upper {
   display: flex;
   flex-direction: column;
   grid-column: 2/4;
   justify-content: space-between;
   padding: 20vh 0;
 }
-.content-new-text button {
-  cursor: pointer;
+.content-text-upper p {
+  width: 95%;
 }
-.content-new-text button:hover {
+.content-text-upper button {
+  background: #6f4e37;
+  border: 1px solid #3c2a1e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+  width: 177px;
+}
+.content-text-lower button {
+  background: #6f4e37;
+  border: 1px solid #3c2a1e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+  width: 177px;
+}
+.content-text-upper button:hover {
   opacity: 0.95;
 }
-.content-new-text button:active {
+.content-text-upper button:active {
   opacity: 1;
 }
-
-.triangle-container {
-  height: 200px;
+.content-img-lower {
+  grid-column: 2/4;
+  grid-row: 1;
+  padding: 20vh 0;
   width: 100%;
-  background: linear-gradient(177deg, white 41%, #e1cec2 41%);
+}
+.content-text-lower {
+  display: flex;
+  flex-direction: column;
+  grid-column: 4/6;
+  grid-row: 1;
+  justify-content: space-between;
+  padding: 20vh 0;
+}
+.content-text-lower p {
+  width: 95%;
 }
 
-.triangle-container-r {
-  height: 200px;
-  width: 100%;
-  background: linear-gradient(-3deg, white 41%, #e1cec2 41%);
-}
-
-.triangle-container-white {
-  height: 200px;
-  width: 100%;
-  background: linear-gradient(177deg, white 41%, white 41%);
-}
-
-.products-new {
+.products {
   background: #e1cec2;
   display: grid;
   grid-template-columns: 100%;
   padding: 10px;
 }
-.products-new h2 {
+.products .products-h2-container {
   grid-row: 1/1;
+  display: grid;
+  grid-template-columns: 15% 50%;
 }
-.products-new-container {
+.products-container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -203,18 +237,43 @@ input {
 
 section {
   background: #fff;
+  border: 1px solid #fff;
   display: flex;
-  grid-column: span 1;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid black;
+  grid-column: span 1;
   grid-row: 2/2;
   padding: 10px;
 }
 
 .tags button {
-  background: #E1CEC2;
+  background: #e1cec2;
   border-radius: 5px;
+  padding: 5px;
+}
+
+.bottom-button {
+  background: #fefefe;
+  border: 1px solid #6f4e37;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 15px;
+}
+
+.triangle-container {
+  background: linear-gradient(178deg, white 41%, #e1cec2 41%);
+  height: 100px;
+  width: 100%;
+}
+.triangle-container-r {
+  background: linear-gradient(-2deg, white 41%, #e1cec2 41%);
+  height: 100px;
+  width: 100%;
+}
+
+.products-h2-container h2 {
+  grid-column: 2;
 }
 
 /*# sourceMappingURL=styles.css.map */
