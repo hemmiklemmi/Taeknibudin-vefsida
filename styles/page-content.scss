@@ -1,0 +1,44 @@
+/* þarf mögulega að laga allar einingar */
+.page-content {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  margin: auto;
+  width: 100%;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 $spacing;
+
+  h3 {
+    grid-column-start: span 12;
+  }
+
+  &-content {
+    display: flex;
+    grid-column-start: span 12;
+    justify-content: space-between;
+    width: 33%;
+  }
+}
+
+.products-content {
+  background-color: #e1cec2;
+
+  &-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    padding: 20px 10px;
+  }
+
+  section {
+    /* virkar ekki útaf grid row */
+    grid-column-start: span 3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
