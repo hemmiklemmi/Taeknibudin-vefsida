@@ -307,6 +307,14 @@ section {
   padding: 10px 15px;
 }
 
+.products-content {
+  background-color: #e1cec2;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: auto;
+}
+
 footer {
   background: #3c2a1e;
   color: #fefefe;

@@ -1,0 +1,7 @@
+.products-content {
+  background-color: #e1cec2;
+  display: grid;
+  gap: $spacing;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: auto;
+}
