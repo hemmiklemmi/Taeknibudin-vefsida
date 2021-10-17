@@ -31,7 +31,8 @@ section {
   flex-direction: column;
   gap: $spacing;
   grid-column: span 1;
-  grid-row: 2/2;
+
+  /* grid-row: 2/2; commenta þetta út því þetta braut vörulisti og sýnist það ekki breyta neinu í index */
   padding: $spacing;
 }
 
