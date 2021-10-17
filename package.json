@@ -10,7 +10,7 @@
   "author": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "browser-sync": "browser-sync start --server --files index.html pages/*.html styles.css",
     "sass": "sass styles.scss styles.css",
     "sass-watch": "sass --watch styles.scss styles.css",
     "dev": "concurrently npm:sass-watch npm:browser-sync",
