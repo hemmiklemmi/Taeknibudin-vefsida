@@ -392,7 +392,7 @@ footer h2 {
   width: 100%;
 }
 
-section {
+.product-card {
   background: #fff;
   border-radius: 5px;
   display: flex;
@@ -416,6 +416,25 @@ section {
   background: #e1cec2;
   border-radius: 5px;
   padding: 5px;
+}
+
+.orderpage-content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.orderpage-content .form {
+  grid-column-start: span 6;
+}
+
+.karfa {
+  grid-column-start: span 6;
+}
+.karfa section {
+  border-bottom: 1px #000 solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
