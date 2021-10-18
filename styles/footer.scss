@@ -15,6 +15,7 @@ footer {
   &-section {
     background: #3c2a1e;
     gap: 0;
+    grid-column: span 1;
   }
 
   &-p {
