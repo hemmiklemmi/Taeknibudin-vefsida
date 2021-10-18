@@ -1,42 +1,48 @@
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 160px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 192px;
+@mixin font( $font-size, $font-style, $font-weight, $lineheight) {
+  font-size: $font-size;
+  font-style: $font-style;
+  font-weight: $font-weight;
+  line-height: $lineheight;
 }
 
-h2 {
-  font-family: 'Lora', serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 40px;
+h1 {
+  @include font( 160px, normal, bold, 192px);
+
+  //font-family: 'Lato', sans-serif;
+  //font-size: 160px;
+  //font-style: normal;
+  //font-weight: bold;
+  //line-height: 192px;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 32px;
+  @include font(22px, normal, normal, 32px);
+  //font-family: 'Lato', sans-serif;
+  //font-size: 22px;
+  //font-style: normal;
+  //font-weight: normal;
+  //line-height: 32px;
 }
 
 .sidepage-h1 {
+  @include font(60px, normal, 400, 80px);
+
   font-family: 'Lato', sans-serif;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px;
+  //font-size: 60px;
+  //font-style: normal;
+  //font-weight: 400;
+  //line-height: 80px;
   margin: 0 $spacing;
 }
 
 body {
+  @include font( 16px, normal, normal, 24px);
+
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
+  //font-size: 16px;
+  //font-style: normal;
+  //font-weight: normal;
+  //line-height: 24px;
 }
 
 .below-menu-text {
@@ -45,28 +51,32 @@ body {
 }
 
 .bottom-button {
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 24px;
+  @include font(14px, normal, bold, 24px);
+  //font-family: 'Lato', sans-serif;
+  //font-size: 14px;
+  //font-style: normal;
+  //font-weight: bold;
+  //line-height: 24px;
 }
 
 button {
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 16px;
+  @include font(14px, normal, normal, 16px);
+
+  font-family: $main-font;
+  //font-size: 14px;
+  //font-style: normal;
+  //font-weight: normal;
+  //line-height: 16px;
 }
 
 footer {
   h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 48px;
+    @include font(32px, normal, normal, 48px);
+    //font-family: 'Lato', sans-serif;
+    //font-size: 32px;
+    //font-style: normal;
+    //font-weight: normal;
+    //line-height: 48px;
   }
 
   .footer-p {
@@ -75,21 +85,35 @@ footer {
   }
 }
 
+.a-header {
+  h2 {
+    @include font( 40px, normal, bold, 40px);
+
+    font-family: 'Lora', serif;
+    //font-size: 40px;np
+    //font-style: normal;
+    //font-weight: bold;
+    //line-height: 40px;
+  }
+}
+
 .content-text {
   &-lower h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 48px;
+    @include font(36px, normal, normal, 48px);
+    //font-family: 'Lato', sans-serif;
+    //font-size: 36px;
+    //font-style: normal;
+    //font-weight: normal;
+    //line-height: 48px;
   }
 
   &-upper h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 48px;
+    @include font(36px, normal, normal, 48px);
+    //font-family: 'Lato', sans-serif;
+    //font-size: 36px;
+    //font-style: normal;
+    //font-weight: normal;
+    //line-height: 48px;
   }
 }
 

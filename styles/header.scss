@@ -30,7 +30,7 @@ nav {
 input {
   background: #fefefe;
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: $border-radius;
   box-sizing: border-box;
   height: 40px;
   margin-right: $spacing;

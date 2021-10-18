@@ -27,7 +27,7 @@
   &-text-upper button {
     background: #6f4e37;
     border: 1px solid #3c2a1e;
-    border-radius: 5px;
+    border-radius: $border-radius;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -38,7 +38,7 @@
   &-text-lower button {
     background: #6f4e37;
     border: 1px solid #3c2a1e;
-    border-radius: 5px;
+    border-radius: $border-radius;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;

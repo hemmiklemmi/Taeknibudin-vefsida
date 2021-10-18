@@ -2,7 +2,7 @@ footer {
   background: #3c2a1e;
   color: #fefefe;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 2 * $spacing;
   grid-template-columns: repeat(3, 1fr);
 
   h2 {

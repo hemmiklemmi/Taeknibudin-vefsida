@@ -17,23 +17,13 @@ html {
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
   font-size: 160px;
   font-style: normal;
   font-weight: bold;
   line-height: 192px;
 }
 
-h2 {
-  font-family: "Lora", serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 40px;
-}
-
 h3 {
-  font-family: "Lato", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: normal;
@@ -41,20 +31,20 @@ h3 {
 }
 
 .sidepage-h1 {
-  font-family: "Lato", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: 80px;
+  font-family: "Lato", sans-serif;
   margin: 0 10px;
 }
 
 body {
-  font-family: "Lato", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
+  font-family: "Lato", sans-serif;
 }
 
 .below-menu-text {
@@ -63,7 +53,6 @@ body {
 }
 
 .bottom-button {
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: bold;
@@ -71,15 +60,14 @@ body {
 }
 
 button {
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
   line-height: 16px;
+  font-family: "Lato", sans-serif;
 }
 
 footer h2 {
-  font-family: "Lato", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: normal;
@@ -90,15 +78,21 @@ footer .footer-p {
   line-height: 16px;
 }
 
+.a-header h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 40px;
+  font-family: "Lora", serif;
+}
+
 .content-text-lower h2 {
-  font-family: "Lato", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
   line-height: 48px;
 }
 .content-text-upper h2 {
-  font-family: "Lato", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
