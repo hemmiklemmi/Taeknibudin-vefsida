@@ -6,8 +6,15 @@
   .form {
     grid-column-start: span 6;
   }
+}
 
-  .karfa {
-    grid-column-start: span 6;
+.karfa {
+  grid-column-start: span 6;
+
+  section {
+    border-bottom: 1px #000 solid;
+    display: flex;
+    justify-content: space-between;
+    padding: $spacing;
   }
 }

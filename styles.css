@@ -406,8 +406,15 @@ footer h2 {
 .orderpage-content .form {
   grid-column-start: span 6;
 }
-.orderpage-content .karfa {
+
+.karfa {
   grid-column-start: span 6;
+}
+.karfa section {
+  border-bottom: 1px #000 solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
