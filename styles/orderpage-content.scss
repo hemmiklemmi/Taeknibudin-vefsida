@@ -1,0 +1,13 @@
+.orderpage-content {
+  display: grid;
+  gap: $spacing;
+  grid-template-columns: repeat(12, 1fr);
+
+  .form {
+    grid-column-start: span 6;
+  }
+
+  .karfa {
+    grid-column-start: span 6;
+  }
+}
