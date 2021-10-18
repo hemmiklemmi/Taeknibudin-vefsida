@@ -1,0 +1,26 @@
+section {
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing;
+  grid-column: span 1;
+
+  /* grid-row: 2/2; commenta þetta út því þetta braut vörulisti og sýnist það ekki breyta neinu í index */
+  padding: $spacing;
+}
+
+.bottom-button {
+  background: #fefefe;
+  border: 1px solid #6f4e37;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 15px;
+}
+
+.tags button {
+  background: #e1cec2;
+  border-radius: 5px;
+  padding: 5px;
+}
