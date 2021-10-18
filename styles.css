@@ -308,8 +308,7 @@ input {
   align-items: left;
   display: flex;
   grid-column-start: span 12;
-  justify-content: flex-start;
-  width: 33%;
+  width: 100%;
 }
 
 .filters-content button {
