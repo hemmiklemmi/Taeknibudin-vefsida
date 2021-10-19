@@ -2,10 +2,39 @@
   display: grid;
   gap: $spacing;
   grid-template-columns: repeat(12, 1fr);
+  margin: $spacing;
 
   .form {
     grid-column-start: span 6;
   }
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: $spacing 0;
+
+  h2 {
+    grid-column-start: span 12;
+    margin: $spacing;
+  }
+
+  fieldset {
+    border: 0;
+    grid-column-start: span 12;
+    margin: $spacing;
+  }
+
+  button {
+    grid-auto-rows: auto;
+    grid-column-start: span 4;
+    height: 100%;
+    margin: $spacing;
+  }
+}
+
+.input-field {
+  display: flex;
 }
 
 .karfa {
@@ -18,3 +47,11 @@
     padding: $spacing;
   }
 }
+
+/* þett er til þess að taka örvarnar í input type=number, það virkar en stylelint gefur villu */
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */

@@ -422,9 +422,35 @@ footer h2 {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(12, 1fr);
+  margin: 10px;
 }
 .orderpage-content .form {
   grid-column-start: span 6;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 10px 0;
+}
+form h2 {
+  grid-column-start: span 12;
+  margin: 10px;
+}
+form fieldset {
+  border: 0;
+  grid-column-start: span 12;
+  margin: 10px;
+}
+form button {
+  grid-auto-rows: auto;
+  grid-column-start: span 4;
+  height: 100%;
+  margin: 10px;
+}
+
+.input-field {
+  display: flex;
 }
 
 .karfa {
@@ -436,5 +462,12 @@ footer h2 {
   justify-content: space-between;
   padding: 10px;
 }
+
+/* þett er til þess að taka örvarnar í input type=number, það virkar en stylelint gefur villu */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
 
 /*# sourceMappingURL=styles.css.map */
