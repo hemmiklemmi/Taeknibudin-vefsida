@@ -357,8 +357,7 @@ input {
   .below-menu {
     padding: 0;
   }
-
-  h1 {
+  .below-menu h1 {
     height: 20vh;
   }
 
@@ -422,6 +421,7 @@ input {
 .filters-content {
   align-items: left;
   display: flex;
+  flex-wrap: wrap;
   grid-column-start: span 12;
   width: 100%;
 }
@@ -450,6 +450,28 @@ input {
   padding-top: 20px;
 }
 
+@media (max-width: 1400px) {
+  .products-content section {
+    margin: auto;
+    width: 92.5%;
+  }
+}
+@media (max-width: 1000px) {
+  .products-content section {
+    grid-column: span 4;
+  }
+}
+@media (max-width: 750px) {
+  .products-content section {
+    grid-column: span 6;
+    width: 90%;
+  }
+
+  .filters-content button {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
 .footer-section {
   background: #3c2a1e;
   gap: 0;

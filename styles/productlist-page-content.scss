@@ -19,6 +19,7 @@
   &-content {
     align-items: left;
     display: flex;
+    flex-wrap: wrap;
     grid-column-start: span 12;
     width: 100%;
   }
@@ -47,5 +48,36 @@
     grid-column-start: span 3;
     padding-bottom: 2* $spacing;
     padding-top: 2 * $spacing;
+  }
+}
+
+@media (max-width: 1400px) {
+  .products-content {
+    section {
+      margin: auto;
+      width: 92.5%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .products-content {
+    section {
+      grid-column: span 4;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .products-content {
+    section {
+      grid-column: span 6;
+      width: 90%;
+    }
+  }
+
+  .filters-content button {
+    font-size: 14px;
+    line-height: 30px;
   }
 }
