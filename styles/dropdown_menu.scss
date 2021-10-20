@@ -40,3 +40,9 @@
 .overflow {
   overflow: hidden;
 }
+
+@media (max-width: 700px) {
+  .mobile-only-icon {
+    display: flex;
+  }
+}
