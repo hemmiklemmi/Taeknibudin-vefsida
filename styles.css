@@ -422,7 +422,7 @@ footer h2 {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(12, 1fr);
-  margin: 10px;
+  margin: 50px 15px;
 }
 .orderpage-content .form {
   grid-column-start: span 6;
@@ -431,7 +431,6 @@ footer h2 {
 form {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 50px 12px 15px;
 }
 form h2 {
   grid-column-start: span 12;
@@ -456,21 +455,26 @@ fieldset input {
   display: flex;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .karfa {
+  display: flex;
+  flex-direction: column;
   grid-column-start: span 6;
 }
-.karfa section {
-  border-bottom: 1px #000 solid;
+
+.karfa-item {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
-
-/* þett er til þess að taka örvarnar í input type=number, það virkar en stylelint gefur villu */
-/* input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-} */
+.karfa-item img {
+  flex-shrink: 2;
+}
 
 /*# sourceMappingURL=styles.css.map */
