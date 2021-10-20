@@ -519,12 +519,13 @@ footer h2 {
   width: 100%;
 }
 
-.triangle-container,
+@media (max-width: 700px) {
+  .triangle-container,
 .triangle-container-r,
 .triangle-container-footer {
-  display: none;
+    display: none;
+  }
 }
-
 .product-card {
   background: #fff;
   border-radius: 5px;

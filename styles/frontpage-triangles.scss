@@ -16,8 +16,10 @@
   }
 }
 
-.triangle-container,
-.triangle-container-r,
-.triangle-container-footer {
-  display: none;
+@media (max-width: 700px) {
+  .triangle-container,
+  .triangle-container-r,
+  .triangle-container-footer {
+    display: none;
+  }
 }
