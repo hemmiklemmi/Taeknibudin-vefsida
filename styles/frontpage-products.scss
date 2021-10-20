@@ -48,12 +48,6 @@
     font-size: clamp(2rem, 15vw, 10rem);
   }
 
-  .products-h2-container {
-    h2 {
-      font-size: clamp(2em, 1vw, 5rem);
-    }
-  }
-
   .below-menu-text {
     font-size: clamp(1.2rem, 5vw, 2.25rem);
   }
@@ -65,9 +59,10 @@
 }
 
 @media (max-width: 700px) {
-  .footer-section{
+  .footer-section {
     grid-column: span 3;
   }
+
   .products-container {
     section {
       grid-column: span 12;
@@ -93,7 +88,7 @@
     width: 95%;
   }
 
-  nav,
+  .frontpage-nav,
   .a-header,
   .triangle-container,
   .triangle-container-r,
@@ -148,6 +143,12 @@
     .content-p {
       padding: $spacing 0;
     }
+  }
+
+  .products .products-h2-container {
+    display: flex;
+    margin: auto;
+    width: 95%;
   }
 }
 

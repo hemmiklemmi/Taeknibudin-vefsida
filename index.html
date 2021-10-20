@@ -13,15 +13,15 @@
     <script src="js/index.js"></script>
     <title>Hópverkefni 1 Vefforritun</title>
 </head>
-<body>
+<body id="body">
     <div class="wrapper">
-        <header class="frontpage-header">
+        <header class="frontpage-header" id="frontpage-header">
             <div class="menu">
                 <div class="h2-img-container">
                     <img class="header-icon" src="images/wheel.png" alt="">
                     <a class="a-header-h2" href="index.html"><h2>Tæknibúðin</h2></a>
                 </div>
-                <nav>
+                <nav class="frontpage-nav">
                     <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
                     <!--það þarf að breyta hrefinu-->
                 </nav>
@@ -32,23 +32,24 @@
                     <a href="pages/pontunarsida.html" class="checkout-icon"><img class = "header-icon" src="images/Cart.png" alt=""></a>
                     <div class="mobile-only-icon"  onclick=" drop_down()"><img src="images/Vector.png" alt=""></div> 
                 </div>
-                <div class="menu-mobile"id="menu-mobile">
-                    <div class="a-mobile">
-                        <a href="pages/vorulisti.html" class="a-header">Nýjar vörur</a>
-                        <a href="pages/vara.html" class="a-header">Tilboðs vörur</a>
-                        <a href="pages/vorulisti.html" class="a-header">Allar vörur</a>
-                    </div>
-                    <nav>
-                        <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
-                    </nav>
-                </div>
+               
             </div>
-            <div class="below-menu">
+            <div class="below-menu" id="below-menu">
                 <h1>Tilboðsvika</h1>
                 <p class="below-menu-text">Keyptu græjurnar hjá okkur!</p>
             </div>
         </header>
-        <main>
+        <div class="menu-mobile"id="menu-mobile">
+            <div class="a-mobile">
+                <a href="pages/vorulisti.html" class="a-header-mobile">Nýjar vörur</a>
+                <a href="pages/vara.html" class="a-header-mobile">Tilboðs vörur</a>
+                <a href="pages/vorulisti.html" class="a-header-mobile">Allar vörur</a>
+            </div>
+            <nav>
+                <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
+            </nav>
+        </div>
+        <main id="main">
             <div class="content-cta">
                 <div class = "content-text-upper">
                     <h2>Nýjar vörur í <b>hverri viku</b></h2>
