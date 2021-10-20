@@ -112,6 +112,11 @@ footer .footer-p {
   line-height: 110px;
 }
 
+.filters-content button {
+  font-size: 20px;
+  line-height: 32px;
+}
+
 .frontpage-header {
   background-image: url("images/Background.png");
   background-repeat: round;
@@ -394,7 +399,7 @@ input {
 }
 @media (max-width: 400px) {
   .menu {
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 /* þarf mögulega að laga allar einingar */

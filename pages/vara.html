@@ -9,17 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <script src="../js/index.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body id="body">
     <div class="wrapper">
         <header class="sidepage-header">
             <div class="menu">
                 <div class="h2-img-container">
                     <img class="header-icon" src="../images/wheel.png" alt="">
-                    <a class="a-header" href="../index.html"><h2>Tæknibúðin</h2></a>
+                    <a class="a-header-h2" href="../index.html"><h2>Tæknibúðin</h2></a>
                 </div>
-                <nav>
+                <nav class="frontpage-nav">
                     <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="../images/search.png" alt="" class= "search-icon">  </Input>
                     <!--það þarf að breyta hrefinu-->
                 </nav>
@@ -27,10 +28,21 @@
                     <a href="./vorulisti.html" class="a-header">Nýjar vörur</a>
                     <a href="./vara.html" class="a-header">Tilboðs vörur</a>
                     <a href="./vorulisti.html" class="a-header">Allar vörur</a>
-                    <a href="./pontunarsida.html" class="checkout-icon"><img class = "header-icon" src="../images/Cart.png" alt=""></a> 
+                    <a href="./pontunarsida.html" class="checkout-icon"><img class = "header-icon" src="../images/Cart.png" alt=""></a>
+                    <div class="mobile-only-icon"  onclick=" drop_down_3()"><img src="../images/Vector.png" alt=""></div> 
                 </div>
             </div>
         </header>
+        <div class="menu-mobile"id="menu-mobile">
+            <div class="a-mobile">
+                <a href="pages/vorulisti.html" class="a-header-mobile">Nýjar vörur</a>
+                <a href="pages/vara.html" class="a-header-mobile">Tilboðs vörur</a>
+                <a href="pages/vorulisti.html" class="a-header-mobile">Allar vörur</a>
+            </div>
+            <nav>
+                <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
+            </nav>
+        </div>
         <main>
             <div class="product-content">
                 <img src="../images/alexandre-debieve-FO7JIlwjOtU-unsplash 1.png" alt="">
