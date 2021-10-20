@@ -42,6 +42,12 @@ input {
   color: #000;
   margin: 0 $spacing;
   text-decoration: none;
+
+  &-h2 {
+    color: #000;
+    margin: 0 $spacing;
+    text-decoration: none;
+  }
 }
 
 .checkout-icon {

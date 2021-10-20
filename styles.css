@@ -78,7 +78,7 @@ footer .footer-p {
   line-height: 16px;
 }
 
-.a-header h2 {
+.a-header-h2 h2 {
   font-size: 40px;
   font-style: normal;
   font-weight: bold;
@@ -150,6 +150,11 @@ input {
   margin: 0 10px;
   text-decoration: none;
 }
+.a-header-h2 {
+  color: #000;
+  margin: 0 10px;
+  text-decoration: none;
+}
 
 .checkout-icon {
   align-items: center;
@@ -212,35 +217,6 @@ input {
   justify-content: space-between;
   padding: 20vh 0;
 }
-.content-text-upper p {
-  width: 95%;
-}
-.content-text-upper button {
-  background: #6f4e37;
-  border: 1px solid #3c2a1e;
-  border-radius: 5px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  height: 44px;
-  width: 177px;
-}
-.content-text-lower button {
-  background: #6f4e37;
-  border: 1px solid #3c2a1e;
-  border-radius: 5px;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  height: 44px;
-  width: 177px;
-}
-.content-text-upper button:hover {
-  opacity: 0.95;
-}
-.content-text-upper button:active {
-  opacity: 1;
-}
 .content-img-lower {
   grid-column: 2/4;
   grid-row: 1;
@@ -251,11 +227,28 @@ input {
   display: flex;
   flex-direction: column;
   grid-column: 4/6;
-  grid-row: 1;
   justify-content: space-between;
   padding: 20vh 0;
 }
-.content-text-lower p {
+
+.content-button {
+  background: #6f4e37;
+  border: 1px solid #3c2a1e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+  width: 177px;
+}
+.content-button:hover {
+  opacity: 0.95;
+}
+.content-button:active {
+  opacity: 1;
+}
+
+.content-p {
   width: 95%;
 }
 
@@ -281,6 +274,10 @@ input {
   padding-bottom: 20px;
 }
 
+.mobile-only-icon {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   .products-container section {
     margin: auto;
@@ -298,6 +295,97 @@ input {
 
   .products-h2-container h2 {
     font-size: clamp(2em, 1vw, 5rem);
+  }
+
+  .below-menu-text {
+    font-size: clamp(1.2rem, 5vw, 2.25rem);
+  }
+
+  .content-img-upper,
+.content-img-lower {
+    height: 40vh;
+  }
+}
+@media (max-width: 700px) {
+  .footer-section {
+    grid-column: span 3;
+  }
+
+  .products-container section {
+    grid-column: span 12;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content-img-upper,
+.content-img-lower,
+.content-text-upper,
+.content-text-lower {
+    grid-column: span 6;
+    padding: 10px;
+  }
+
+  .content-img-upper,
+.content-img-lower {
+    margin: auto;
+    width: 95%;
+  }
+
+  nav,
+.a-header,
+.triangle-container,
+.triangle-container-r,
+.triangle-container-footer {
+    display: none;
+  }
+
+  .mobile-only-icon {
+    display: flex;
+  }
+
+  .below-menu {
+    padding: 0;
+  }
+
+  h1 {
+    height: 20vh;
+  }
+
+  .frontpage-header {
+    background-repeat: no-repeat;
+    background-size: auto;
+    grid-template-rows: auto 40vh;
+  }
+
+  .a-header-container {
+    justify-content: space-around;
+    width: 20%;
+  }
+
+  .a-header-h2 h2 {
+    font-size: 24px;
+  }
+
+  .content-text-upper .content-button {
+    align-self: center;
+  }
+  .content-text-upper .content-p {
+    padding: 10px 0;
+  }
+
+  .content-text-lower .content-button {
+    align-self: center;
+  }
+  .content-text-lower .content-p {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 400px) {
+  .menu {
+    justify-content: center;
   }
 }
 /* þarf mögulega að laga allar einingar */
@@ -348,18 +436,6 @@ input {
   padding-top: 20px;
 }
 
-footer {
-  background: #3c2a1e;
-  color: #fefefe;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-}
-footer h2 {
-  border-bottom: 2px solid #e1cec2;
-  margin-bottom: 10px;
-}
-
 .footer-section {
   background: #3c2a1e;
   gap: 0;
@@ -369,13 +445,30 @@ footer h2 {
   border-top: 1px solid #6f4e37;
   display: flex;
   grid-column: span 3;
-  grid-row: 3;
   justify-content: center;
   margin: auto;
   padding: 10px 0;
   width: 70%;
 }
 
+footer {
+  background: #3c2a1e;
+  color: #fefefe;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 10px;
+}
+footer h2 {
+  border-bottom: 2px solid #e1cec2;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .footer-section {
+    grid-column: span 3;
+  }
+}
 .triangle-container {
   background: linear-gradient(178deg, white 41%, #e1cec2 42%);
   height: 100px;
@@ -469,5 +562,11 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 } */
+.menu-mobile {
+  display: none;
+}
+.menu-mobile nav {
+  display: none;
+}
 
 /*# sourceMappingURL=styles.css.map */

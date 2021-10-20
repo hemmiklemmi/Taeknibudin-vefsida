@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
     <title>Hópverkefni 1 Vefforritun</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
             <div class="menu">
                 <div class="h2-img-container">
                     <img class="header-icon" src="images/wheel.png" alt="">
-                    <a class="a-header" href="index.html"><h2>Tæknibúðin</h2></a>
+                    <a class="a-header-h2" href="index.html"><h2>Tæknibúðin</h2></a>
                 </div>
                 <nav>
                     <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
@@ -28,7 +29,18 @@
                     <a href="pages/vorulisti.html" class="a-header">Nýjar vörur</a>
                     <a href="pages/vara.html" class="a-header">Tilboðs vörur</a>
                     <a href="pages/vorulisti.html" class="a-header">Allar vörur</a>
-                    <a href="pages/pontunarsida.html" class="checkout-icon"><img class = "header-icon" src="images/Cart.png" alt=""></a> 
+                    <a href="pages/pontunarsida.html" class="checkout-icon"><img class = "header-icon" src="images/Cart.png" alt=""></a>
+                    <div class="mobile-only-icon"  onclick=" drop_down()"><img src="images/Vector.png" alt=""></div> 
+                </div>
+                <div class="menu-mobile"id="menu-mobile">
+                    <div class="a-mobile">
+                        <a href="pages/vorulisti.html" class="a-header">Nýjar vörur</a>
+                        <a href="pages/vara.html" class="a-header">Tilboðs vörur</a>
+                        <a href="pages/vorulisti.html" class="a-header">Allar vörur</a>
+                    </div>
+                    <nav>
+                        <Input type="search" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl."><img src="images/search.png" alt="" class= "search-icon">  </Input>
+                    </nav>
                 </div>
             </div>
             <div class="below-menu">
@@ -40,12 +52,12 @@
             <div class="content-cta">
                 <div class = "content-text-upper">
                     <h2>Nýjar vörur í <b>hverri viku</b></h2>
-                    <p>
+                    <p class="content-p">
                         Við fljúgum með nýjar vörur til landsins í
                         hverri viku og bjóðum upp á frábært verð því lorem ipsum dolor sit amet,
                         consectetur adipiscing elit. Donec sit amet elementum orci, ac feugiat mauris.
                     </p>
-                    <button>SKOÐA NÝJAR VÖRUR</button>
+                    <button class="content-button">SKOÐA NÝJAR VÖRUR</button>
                 </div>
                 <img class = "content-img-upper"src="images/voo-qqq-RSYBi_1fhfM-unsplash 1.png" alt="">
             </div>
@@ -102,12 +114,12 @@
             <div class="content-cta">
                 <div class="content-text-lower">
                     <h2><b>Stærsta vöruhús</b> á Íslandi</h2>
-                    <p>
+                    <p class="content-p">
                     Vöruhúsið okkar er það stærsta á Íslandi
                     og með fullt af vörum útum allt risus quis risus mattis sollicitudin.
                     Donec egestas justo orci, in egestas quam molestie id. 
                     </p>
-                    <button>SKOÐA ALLAR VÖRUR</button>
+                    <button class="content-button">SKOÐA ALLAR VÖRUR</button>
                 </div> 
                 <img class="content-img-lower" src="images/adrian-sulyok-sczNLg6rrhQ-unsplash 1.png" alt="">
             </div>
