@@ -431,22 +431,25 @@ footer h2 {
 form {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 10px 0;
+  margin: 50px 12px;
 }
 form h2 {
   grid-column-start: span 12;
-  margin: 10px;
-}
-form fieldset {
-  border: 0;
-  grid-column-start: span 12;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 form button {
-  grid-auto-rows: auto;
-  grid-column-start: span 4;
+  grid-column-start: span 3;
   height: 100%;
-  margin: 10px;
+  padding: 20px;
+}
+
+fieldset {
+  border: 0;
+  grid-column-start: span 12;
+  margin-bottom: 15px;
+}
+fieldset input {
+  margin-bottom: 15px;
 }
 
 .input-field {
