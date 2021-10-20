@@ -431,7 +431,7 @@ footer h2 {
 form {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 50px 12px;
+  margin: 50px 12px 15px;
 }
 form h2 {
   grid-column-start: span 12;
