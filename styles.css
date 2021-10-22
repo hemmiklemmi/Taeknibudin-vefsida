@@ -417,7 +417,6 @@ input {
   grid-column-start: span 12;
 }
 .filters-content {
-  align-items: left;
   display: flex;
   flex-wrap: wrap;
   grid-column-start: span 12;
@@ -456,12 +455,12 @@ input {
 }
 @media (max-width: 1000px) {
   .products-content section {
-    grid-column: span 4;
+    grid-column: span 6;
   }
 }
 @media (max-width: 750px) {
   .products-content section {
-    grid-column: span 6;
+    grid-column: span 12;
     width: 90%;
   }
 
