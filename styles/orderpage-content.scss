@@ -20,8 +20,7 @@ form {
 
   button {
     grid-column-start: span 3;
-    height: 100%;
-    padding: 20px;
+    padding: $spacing;
   }
 }
 
@@ -54,11 +53,12 @@ input::-webkit-inner-spin-button {
 
 .karfa-item {
   align-items: center;
+  border-bottom: 1px solid #E1CEC2;
   display: flex;
   justify-content: space-between;
-  padding: $spacing;
+  padding: $spacing 0 ;
 
   img {
-    flex-shrink: 2;
+    width: 15%;
   }
 }
