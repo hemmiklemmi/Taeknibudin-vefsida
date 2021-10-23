@@ -606,6 +606,13 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
   padding: 10px 0;
 }
+.karfa-item-bold {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-weight: 700;
+}
 .karfa-item-1 {
   align-items: center;
   display: flex;
@@ -616,9 +623,20 @@ input::-webkit-inner-spin-button {
 .karfa-item img {
   display: block;
   padding-right: 20px;
-  width: 25%;
+  max-width: 25%;
 }
 
+@media (max-width: 700px) {
+  .karfa {
+    grid-column-start: span 12;
+    grid-row-start: 1;
+  }
+
+  .form {
+    grid-column-start: span 12;
+    grid-row-start: 2;
+  }
+}
 .menu-mobile {
   display: none;
   height: 100vh;
