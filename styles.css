@@ -532,7 +532,6 @@ footer h2 {
   flex-direction: column;
   gap: 10px;
   grid-column: span 3;
-  /* grid-row: 2/2; commenta þetta út því þetta braut vörulisti og sýnist það ekki breyta neinu í index */
   padding: 10px;
 }
 
@@ -543,6 +542,7 @@ footer h2 {
   box-sizing: border-box;
   height: 44px;
   padding: 10px 15px;
+  width: 100%;
 }
 
 .tags button {
