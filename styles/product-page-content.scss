@@ -20,9 +20,10 @@
 }
 
 .product-information > h2 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 100;
     height: max-content;
+    white-space: nowrap;
 }
 
 
@@ -33,13 +34,7 @@
     
 }
 
-.product-information > .product-card-footer > button {
-    background: #fefefe;
-    border: 1px solid #6f4e37;
-    border-radius: $border-radius;
-    box-sizing: border-box;
-    height: 44px;
-    padding: $spacing 1.5 * $spacing;
+.product-information > .product-card-footer > .long-button {
     width: 50%;
   }
 

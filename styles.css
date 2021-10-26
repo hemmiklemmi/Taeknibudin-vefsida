@@ -765,9 +765,10 @@ input::-webkit-inner-spin-button {
 }
 
 .product-information > h2 {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 100;
   height: max-content;
+  white-space: nowrap;
 }
 
 .product-information > .product-card-footer {
@@ -776,13 +777,7 @@ input::-webkit-inner-spin-button {
   margin-top: auto;
 }
 
-.product-information > .product-card-footer > button {
-  background: #fefefe;
-  border: 1px solid #6f4e37;
-  border-radius: 5px;
-  box-sizing: border-box;
-  height: 44px;
-  padding: 10px 15px;
+.product-information > .product-card-footer > .long-button {
   width: 50%;
 }
 
