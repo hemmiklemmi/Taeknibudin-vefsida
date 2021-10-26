@@ -129,6 +129,23 @@ footer .footer-p {
   line-height: 32px;
 }
 
+.input-field {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+form h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+}
+
+.karfa {
+  font-size: 22px;
+  line-height: 32px;
+}
+
 .frontpage-header {
   background-image: url("images/Background.png");
   background-repeat: round;
@@ -656,23 +673,29 @@ input::-webkit-inner-spin-button {
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
-  width: 50%;
+  width: 60%;
 }
 .karfa-item img {
   display: block;
   padding-right: 20px;
-  max-width: 25%;
+  width: 127px;
+  height: 85px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .karfa {
     grid-column-start: span 12;
     grid-row-start: 1;
   }
 
-  .form {
+  .orderpage-content .form {
     grid-column-start: span 12;
     grid-row-start: 2;
+  }
+}
+@media (max-width: 450px) {
+  .input-field {
+    display: grid;
   }
 }
 .menu-mobile {

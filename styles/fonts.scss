@@ -93,3 +93,14 @@ footer {
   font-size: 20px;
   line-height: 32px;
 }
+.input-field{
+  font-size: 22px;
+  line-height: 32px;
+}
+form h2{
+  @include font(32px, normal, normal, 48px);
+}
+.karfa{
+  font-size: 22px;
+  line-height: 32px;
+}

@@ -81,24 +81,33 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-shrink: 0;
     justify-content: flex-start;
-    width: 50%;
+    width: 60%;
   }
 
   img {
     display: block;
     padding-right: 20px;
-    max-width: 25%;
+    width: 127px;
+    height: 85px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .karfa {
     grid-column-start: span 12;
     grid-row-start: 1;
   }
 
-  .form {
-    grid-column-start: span 12;
-    grid-row-start: 2;
+  
+  .orderpage-content{
+    .form {
+      grid-column-start: span 12;
+      grid-row-start: 2;
+    }
+  }
+}
+@media(max-width:450px){
+  .input-field{
+    display: grid;
   }
 }
