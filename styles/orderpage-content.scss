@@ -36,6 +36,16 @@ fieldset {
 
 .input-field {
   display: flex;
+  
+  &-item-1 {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  &-item-2 {
+    width: 100%;
+    flex-grow: 1;
+  }
 }
 
 input::-webkit-outer-spin-button,
