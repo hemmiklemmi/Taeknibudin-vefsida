@@ -68,6 +68,13 @@ footer {
   &-upper h2 {
     @include font(36px, normal, normal, 48px);
   }
+  &-lower p {
+    @include font(20px, normal, normal, 32px);
+  }
+
+  &-upper p {
+    @include font(20px, normal, normal, 32px);
+  }
 }
 
 .products-h2-container h2 {
