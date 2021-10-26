@@ -43,7 +43,6 @@
   }
 
   section {
-    /* virkar ekki útaf grid row */
     grid-column-start: span 3;
     padding-bottom: 2* $spacing;
     padding-top: 2 * $spacing;
@@ -71,7 +70,7 @@
   .products-content {
     section {
       grid-column: span 12;
-      width: 90%;
+      width: 95%;
     }
   }
 

@@ -468,7 +468,6 @@ input {
   padding: 20px 10px;
 }
 .products-content section {
-  /* virkar ekki útaf grid row */
   grid-column-start: span 3;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -488,7 +487,7 @@ input {
 @media (max-width: 750px) {
   .products-content section {
     grid-column: span 12;
-    width: 90%;
+    width: 95%;
   }
 
   .filters-content button {
