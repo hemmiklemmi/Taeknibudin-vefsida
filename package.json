@@ -17,10 +17,10 @@
     "lint": "stylelint styles.scss ./**/*.scss",
     "sass-build": "sass styles.scss ./build/styles.css",
     "copyjs": "cpy ./js/*.js ./build/",
-    "copyindex": "cpy index.html pages/*.html ./build/",
+    "copyindex": "cpy index.html ./build/",
     "copypages": "cpy pages/*.html ./build/pages",
     "copyimg": "cpy ./images/*.png ./build/images",
-    "build": "concurrently npm:sass-build npm:copyjs npm:copyindex npm:copypages npm copyimg"
+    "build": "concurrently npm:sass-build npm:copyjs npm:copyindex npm:copypages npm:copyimg"
   },
   "license": "ISC",
   "bugs": {
