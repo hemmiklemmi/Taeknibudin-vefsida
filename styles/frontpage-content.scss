@@ -71,9 +71,9 @@
   .content-img-lower,
   .content-text-upper,
   .content-text-lower {
+    gap: $spacing;
     grid-column: span 6;
     padding: $spacing;
-    gap:$spacing;
   }
 
   .content-img-upper,
@@ -101,7 +101,8 @@
       padding: $spacing 0;
     }
   }
-  .content-cta{
-    padding:2*$spacing 0;
+
+  .content-cta {
+    padding: 2*$spacing 0;
   }
 }

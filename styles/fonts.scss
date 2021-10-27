@@ -52,6 +52,10 @@ footer {
   }
 }
 
+form h2 {
+  @include font(32px, normal, normal, 48px);
+}
+
 .a-header-h2 {
   h2 {
     @include font( 40px, normal, bold, 40px);
@@ -68,6 +72,7 @@ footer {
   &-upper h2 {
     @include font(36px, normal, normal, 48px);
   }
+
   &-lower p {
     @include font(20px, normal, normal, 32px);
   }
@@ -93,14 +98,50 @@ footer {
   font-size: 20px;
   line-height: 32px;
 }
-.input-field{
+
+.input-field {
   font-size: 22px;
   line-height: 32px;
 }
-form h2{
+
+.karfa {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.product-information {
+  h2 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 50px;
+  }
+
+  p {
+    @include font(20px, normal, normal, 32px);
+  }
+}
+
+.productpage-details {
+  section h2 {
+    @include font(32px, normal, bold, 48px);
+  }
+
+  section h3 {
+    font-size: 28px;
+  }
+
+  section p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.tags button{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.related-products  h2{
   @include font(32px, normal, normal, 48px);
-}
-.karfa{
-  font-size: 22px;
-  line-height: 32px;
 }

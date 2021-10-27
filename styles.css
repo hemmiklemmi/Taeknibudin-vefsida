@@ -78,6 +78,13 @@ footer .footer-p {
   line-height: 16px;
 }
 
+form h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+}
+
 .a-header-h2 h2 {
   font-size: 40px;
   font-style: normal;
@@ -134,16 +141,48 @@ footer .footer-p {
   line-height: 32px;
 }
 
-form h2 {
+.karfa {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.product-information h2 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 50px;
+}
+.product-information p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.productpage-details section h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+}
+.productpage-details section h3 {
+  font-size: 28px;
+}
+.productpage-details section p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.tags button {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.related-products h2 {
   font-size: 32px;
   font-style: normal;
   font-weight: normal;
   line-height: 48px;
-}
-
-.karfa {
-  font-size: 22px;
-  line-height: 32px;
 }
 
 .frontpage-header {
@@ -355,9 +394,9 @@ input {
 .content-img-lower,
 .content-text-upper,
 .content-text-lower {
+    gap: 10px;
     grid-column: span 6;
     padding: 10px;
-    gap: 10px;
   }
 
   .content-img-upper,
@@ -439,8 +478,8 @@ input {
   .products .products-h2-container {
     display: flex;
     margin: auto;
+    padding: 10px 0 30px;
     width: 95%;
-    padding: 10px 0px 30px 0;
   }
 }
 /* þarf mögulega að laga allar einingar */
@@ -510,6 +549,14 @@ input {
   .filters-content button {
     font-size: 14px;
     line-height: 30px;
+  }
+
+  .productpage-details section p {
+    font-size: 18px;
+  }
+
+  .product-information p {
+    font-size: 18px;
   }
 }
 .footer-section {
@@ -756,23 +803,16 @@ input::-webkit-inner-spin-button {
 
 .picture-of-product {
   grid-column-start: span 6;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .product-information {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   grid-column-start: span 6;
   padding: 1rem;
-  gap: 2rem;
-}
-
-.product-information > h2 {
-  font-size: 3em;
-  font-weight: 100;
-  height: max-content;
-  white-space: nowrap;
 }
 
 .product-information > .product-card-footer {
@@ -793,39 +833,32 @@ input::-webkit-inner-spin-button {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 70%;
-  padding: 1rem 10% 4rem 10%;
   margin: auto;
+  padding: 1rem 10% 4rem;
+  width: 70%;
 }
 
 .related-products {
+  background-color: #e1cec2;
   display: grid;
   gap: 10px;
+  grid-column-gap: 20px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  padding: 20px 10px;
-  background-color: #e1cec2;
   margin: auto;
-  grid-column-gap: 20px;
+  padding: 20px 10px;
 }
 
 .related-products > .product-card {
   display: flex;
   grid-column-start: span 3;
-  margin: 1rem;
   width: 92.5%;
 }
 
 .related-products > h2 {
   grid-column-start: span 12;
-  margin: 1rem;
 }
 
-@media (max-width: 750px) {
-  .picture-of-product, .product-information {
-    grid-column: span 12;
-  }
-}
 @media (max-width: 1000px) {
   .related-products > .product-card {
     grid-column: span 6;
@@ -835,6 +868,18 @@ input::-webkit-inner-spin-button {
 @media (max-width: 750px) {
   .related-products > .product-card {
     grid-column: span 12;
+    width: 95%;
+    margin: auto;
+  }
+
+  .picture-of-product,
+.product-information {
+    grid-column: span 12;
+  }
+
+  .product-information h2 {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
