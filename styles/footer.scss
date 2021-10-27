@@ -23,7 +23,7 @@ footer {
   display: grid;
   grid-gap: 2 * $spacing;
   grid-template-columns: repeat(3, 1fr);
-  padding: 0 $spacing;
+  padding: 4*$spacing $spacing 0 $spacing;
 
   h2 {
     border-bottom: 2px solid #e1cec2;
