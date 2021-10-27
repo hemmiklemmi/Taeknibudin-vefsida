@@ -122,6 +122,10 @@ form h2 {
   }
 }
 
+.related-products h2 {
+  @include font(32px, normal, normal, 48px);
+}
+
 .productpage-details {
   section h2 {
     @include font(32px, normal, bold, 48px);
@@ -142,6 +146,6 @@ form h2 {
   line-height: 24px;
 }
 
-.related-products h2 {
-  @include font(32px, normal, normal, 48px);
+.product-information > .product-card-footer > p {
+  font-weight: bolder;
 }

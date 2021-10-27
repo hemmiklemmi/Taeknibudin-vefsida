@@ -159,6 +159,13 @@ form h2 {
   line-height: 32px;
 }
 
+.related-products h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+}
+
 .productpage-details section h2 {
   font-size: 32px;
   font-style: normal;
@@ -178,11 +185,8 @@ form h2 {
   line-height: 24px;
 }
 
-.related-products h2 {
-  font-size: 32px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 48px;
+.product-information > .product-card-footer > p {
+  font-weight: bolder;
 }
 
 .frontpage-header {
@@ -551,11 +555,11 @@ input {
     line-height: 30px;
   }
 
-  .productpage-details section p {
+  .product-information p {
     font-size: 18px;
   }
 
-  .product-information p {
+  .productpage-details section p {
     font-size: 18px;
   }
 }
@@ -818,15 +822,10 @@ input::-webkit-inner-spin-button {
 .product-information > .product-card-footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
 }
 
 .product-information > .product-card-footer > .long-button {
   width: 50%;
-}
-
-.product-information > .product-card-footer > p {
-  font-weight: bolder;
 }
 
 .productpage-details {
@@ -845,7 +844,6 @@ input::-webkit-inner-spin-button {
   grid-column-gap: 20px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  margin: auto;
   padding: 20px 10px;
 }
 
@@ -868,8 +866,8 @@ input::-webkit-inner-spin-button {
 @media (max-width: 750px) {
   .related-products > .product-card {
     grid-column: span 12;
-    width: 95%;
     margin: auto;
+    width: 95%;
   }
 
   .picture-of-product,
