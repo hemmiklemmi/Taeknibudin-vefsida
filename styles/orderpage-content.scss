@@ -36,15 +36,15 @@ fieldset {
 
 .input-field {
   display: flex;
-  
+
   &-item-1 {
     flex-grow: 1;
     width: 100%;
   }
 
   &-item-2 {
-    width: 100%;
     flex-grow: 1;
+    width: 100%;
   }
 }
 
@@ -63,17 +63,17 @@ input::-webkit-inner-spin-button {
 
 .karfa-item {
   align-items: center;
-  border-bottom: 1px solid #E1CEC2;
+  border-bottom: 1px solid #e1cec2;
   display: flex;
   justify-content: space-between;
-  padding: $spacing 0 ;
+  padding: $spacing 0;
 
   &-bold {
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    padding: $spacing 0 ;
     font-weight: 700;
+    justify-content: space-between;
+    padding: $spacing 0;
   }
 
   &-1 {
@@ -86,9 +86,9 @@ input::-webkit-inner-spin-button {
 
   img {
     display: block;
+    height: 85px;
     padding-right: 20px;
     width: 127px;
-    height: 85px;
   }
 }
 
@@ -98,19 +98,19 @@ input::-webkit-inner-spin-button {
     grid-row-start: 1;
   }
 
-  
-  .orderpage-content{
+  .orderpage-content {
     .form {
       grid-column-start: span 12;
       grid-row-start: 2;
     }
   }
 }
-@media(max-width:450px){
-  .input-field{
+
+@media (max-width: 450px) {
+  .input-field {
     display: grid;
   }
-  
+
   .karfa-item-1 {
     flex-direction: column;
   }
