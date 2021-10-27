@@ -4,6 +4,7 @@
 
 ## Keyrsla verkefnis
 -`npm run dev`: keyrir verkefnið og opnar síðuna í nýjum vafra, ásamt því að fylgjast með breytingum sem gerðar eru á scss-inu og sýna þær strax.
+
 -`npm run lint`: keyrir kóða verkefnisins í gegnum stylelint sem eru staðlar fyrir uppsetningu css og scss kóða.
 -[Hér](linkur á síðuna)er linkur á síðuna uppsett á netlify.
 
