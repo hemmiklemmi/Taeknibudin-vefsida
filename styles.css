@@ -697,6 +697,10 @@ input::-webkit-inner-spin-button {
   .input-field {
     display: grid;
   }
+
+  .karfa-item-1 {
+    flex-direction: column;
+  }
 }
 .menu-mobile {
   display: none;
@@ -808,7 +812,6 @@ input::-webkit-inner-spin-button {
 .related-products > .product-card {
   display: flex;
   grid-column-start: span 3;
-  padding: 1rem;
   margin: 1rem;
   width: 92.5%;
 }
@@ -826,6 +829,7 @@ input::-webkit-inner-spin-button {
 @media (max-width: 1000px) {
   .related-products > .product-card {
     grid-column: span 6;
+    width: auto;
   }
 }
 @media (max-width: 750px) {

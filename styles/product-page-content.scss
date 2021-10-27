@@ -65,7 +65,6 @@
 .related-products > .product-card {
     display: flex;
     grid-column-start: span 3;
-    padding: 1rem;
     margin: 1rem;
     width: 92.5%;
 }
@@ -84,6 +83,7 @@
 @media (max-width: 1000px) {
     .related-products > .product-card {
         grid-column: span 6;
+        width:auto;
     }
 }
 
