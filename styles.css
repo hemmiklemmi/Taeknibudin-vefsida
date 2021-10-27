@@ -689,14 +689,8 @@ fieldset input {
   width: 100%;
 }
 .input-field-item-2 {
-  width: 100%;
   flex-grow: 1;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+  width: 100%;
 }
 
 .karfa {
@@ -707,7 +701,7 @@ input::-webkit-inner-spin-button {
 
 .karfa-item {
   align-items: center;
-  border-bottom: 1px solid #E1CEC2;
+  border-bottom: 1px solid #e1cec2;
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
@@ -715,9 +709,9 @@ input::-webkit-inner-spin-button {
 .karfa-item-bold {
   align-items: center;
   display: flex;
+  font-weight: 700;
   justify-content: space-between;
   padding: 10px 0;
-  font-weight: 700;
 }
 .karfa-item-1 {
   align-items: center;
@@ -728,9 +722,9 @@ input::-webkit-inner-spin-button {
 }
 .karfa-item img {
   display: block;
+  height: 85px;
   padding-right: 20px;
   width: 127px;
-  height: 85px;
 }
 
 @media (max-width: 850px) {

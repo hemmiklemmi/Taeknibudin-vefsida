@@ -48,13 +48,6 @@ fieldset {
   }
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  // stylelint-disable-next-line
-  -webkit-appearance: none;
-  margin: 0;
-}
-
 .karfa {
   display: flex;
   flex-direction: column;
