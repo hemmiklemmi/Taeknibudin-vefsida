@@ -1,11 +1,11 @@
-# hopverkefni1
+# Hópverkefni 1
 
 Þetta verkefni var gert af Hermanni, Helga og Bynjari. Síðan er byggð á hönnun eftir Óþekktan hönnuð (https://www.figma.com/file/FjymA3lRoi49h83WgAccEw/H%C3%B3pverkefni-1?node-id=0%3A1) og síða er heimasíða fyrir tæknibúðina.
 
 ## Keyrsla verkefnis
 - `npm run dev`: keyrir verkefnið og opnar síðuna í nýjum vafra, ásamt því að fylgjast með breytingum sem gerðar eru á scss-inu og sýna þær strax.
 - `npm run lint`: keyrir kóða verkefnisins í gegnum stylelint sem eru staðlar fyrir uppsetningu css og scss kóða.
-- [Hér](linkur á síðuna)er linkur á síðuna uppsett á netlify.
+- [Hér](linkur á síðuna)er linkur á síðuna uppsetta á netlify.
 
 ## Lýsing verkefnisins
 
