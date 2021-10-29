@@ -31,7 +31,8 @@ body {
   line-height: 48px;
 }
 
-.bottom-button {
+.bottom-button,
+.content-button {
   @include font(14px, normal, bold, 24px);
 }
 
@@ -52,7 +53,8 @@ footer {
   }
 }
 
-form h2 {
+form h2,
+.related-products h2 {
   @include font(32px, normal, normal, 48px);
 }
 
@@ -94,16 +96,14 @@ form h2 {
   }
 }
 
-.filters-content button {
+.filters-content button,
+form .content-button {
   font-size: 20px;
+  font-weight: normal;
   line-height: 32px;
 }
 
-.input-field {
-  font-size: 22px;
-  line-height: 32px;
-}
-
+.input-field,
 .karfa {
   font-size: 22px;
   line-height: 32px;
@@ -122,10 +122,6 @@ form h2 {
   }
 }
 
-.related-products h2 {
-  @include font(32px, normal, normal, 48px);
-}
-
 .productpage-details {
   section h2 {
     @include font(32px, normal, bold, 48px);
@@ -139,11 +135,6 @@ form h2 {
     font-size: 20px;
     line-height: 32px;
   }
-}
-
-.tags button {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .product-information > .product-card-footer > p {
