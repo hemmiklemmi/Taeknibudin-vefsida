@@ -1,6 +1,6 @@
 # Hópverkefni 1
 
-Þetta verkefni var gert af Hermanni, Helga og Bynjari. Síðan er byggð á hönnun eftir Óþekktan hönnuð (https://www.figma.com/file/FjymA3lRoi49h83WgAccEw/H%C3%B3pverkefni-1?node-id=0%3A1) og síða er heimasíða fyrir tæknibúðina.
+Þetta verkefni var gert af Hermanni, Helga og Brynjari. Síðan er byggð á hönnun eftir Óþekktan hönnuð (https://www.figma.com/file/FjymA3lRoi49h83WgAccEw/H%C3%B3pverkefni-1?node-id=0%3A1) og síða er heimasíða fyrir tæknibúðina.
 
 ## Keyrsla verkefnis
 - `npm run dev`: keyrir verkefnið og opnar síðuna í nýjum vafra, ásamt því að fylgjast með breytingum sem gerðar eru á scss-inu og sýna þær strax.
@@ -39,7 +39,7 @@ Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SC
 
 >Þessi skjöl eru keyrð í gegnum `styles.scss` sem er aðal scss skjalið og útfrá því verður `styles.css` til.
 
-Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er með allar scriptur og dependencies verkefnisins og `/img` mappan sem inniheldur allar myndir sem notaðar eru í verkefninu.
+Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er með allar scriptur og dependencies verkefnisins, `/img` mappan sem inniheldur allar myndir sem notaðar eru í verkefninu og `/js` mappa sem inniheldur þessa litlu javascript virkni sem við notuðum í verkefninu.
 
 ## Hópmeðlimir
 ### Hermann
