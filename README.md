@@ -39,7 +39,7 @@ Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SC
 
 >Þessi skjöl eru keyrð í gegnum `styles.scss` sem er aðal scss skjalið og útfrá því verður `styles.css` til.
 
-Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er með allar scriptur og dependencies verkefnisins og `/img` mappan sem inniheldur allar myndir sem notaðar eru í verkefninu.
+Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er með allar scriptur og dependencies verkefnisins, `/img` mappan sem inniheldur allar myndir sem notaðar eru í verkefninu og `/js` mappa sem inniheldur þessa litlu js virkni sem við notuðum í verkefninu.
 
 ## Hópmeðlimir
 ### Hermann
